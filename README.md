@@ -18,19 +18,19 @@ Open http://localhost:5000
 
 Hosting the Website
 
-# 1. Take remote access of your instance.
+1. Take remote access of your instance.
 
-# 2. Install Apache2, phpMyAdmin, MySQL, Python, and Python packages (Numpy, Pandas, PIL), TensorFlow in your instance.
+2. Install Apache2, phpMyAdmin, MySQL, Python, and Python packages (Numpy, Pandas, PIL), TensorFlow in your instance.
 
-# 3. Import your local database into the database of the instance using the "stop marine pollution.sql" file.
+3. Import your local database into the database of the instance using the "stop marine pollution.sql" file.
 
-# 4. Create a folder named "FlaskApp" in /var/www/ and clone your git repository into the FlaskApp folder
+4. Create a folder named "FlaskApp" in /var/www/ and clone your git repository into the FlaskApp folder
 $ git clone your_repository_from_github
 
-# 5. Go into the FlaskApp folder and run the main file.
+5. Go into the FlaskApp folder and run the main file.
 $ cd /var/www/FlaskApp
 > python3 main.py
 
-# 6. Open http://localhost:5000
+6. Open http://localhost:5000
 
 
